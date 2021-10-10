@@ -71,7 +71,7 @@ class API:
     }
 
     params = (
-        ('apiKey', '20ab72a1-96c2-42a7-8feb-998ee9a184f1'),
+        ('apiKey', 'user-apiKey'),
     )
 
     data = '{"SearchByKeywordRequest": { "keyword": "' + str(product_key) + '", "records": 0, "startingRecord": 0, "searchOptions": "string", "searchWithYourSignUpLanguage": "string" }}'
